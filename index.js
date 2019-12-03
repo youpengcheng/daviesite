@@ -12,6 +12,7 @@ var proxy = require('http-proxy-middleware');
 
 
 
+
 app.use('/ajax', proxy({
     target: "http://m.maoyan.com/",
     changeOrigin: true

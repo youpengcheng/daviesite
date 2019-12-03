@@ -14,11 +14,11 @@
     "deploy": {
         "production": {
             "user":"root",
-            "host": ["47.108.78.24"],
+            "host": ["47.99.243.243"],
             "port": "22",
             "ref": "origin/master",
-            "repo": "git@github.com:cooleye/daviesite.git",
-            "path": "/mnt/daviesite",
+            "repo": "https://github.com/youpengcheng/daviesite.git",
+            "path": "/root/test",
             "ssh_options": "StrictHostKeyChecking=no",
             "pre-setup": "echo 'This is a pre-setup command'",
             "post-setup": "ls -la",
