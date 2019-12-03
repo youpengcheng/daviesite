@@ -5,7 +5,12 @@ var path = require('path');
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+console.log(1);
+
+
 var proxy = require('http-proxy-middleware');
+
+
 
 app.use('/ajax', proxy({
     target: "http://m.maoyan.com/",
